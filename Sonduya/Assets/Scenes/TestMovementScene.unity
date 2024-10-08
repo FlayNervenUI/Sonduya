@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 1386626586}
   - component: {fileID: 1386626587}
   - component: {fileID: 1386626588}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -516,7 +516,7 @@ MonoBehaviour:
   groundCheck: {fileID: 606129081}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 8
 --- !u!212 &1550728157
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -596,7 +596,7 @@ GameObject:
   - component: {fileID: 1637005547}
   - component: {fileID: 1637005548}
   - component: {fileID: 1637005549}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Platform (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
