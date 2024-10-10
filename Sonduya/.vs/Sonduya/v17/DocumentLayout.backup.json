@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\project\\Sonduya\\Sonduya\\",
+  "WorkspaceRootPath": "G:\\Program\\Unity\\Repres\\Sonduya\\Sonduya\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FCF1000-37CE-3955-F63E-7EF5FFC271D6}|Assembly-CSharp.csproj|d:\\project\\sonduya\\sonduya\\assets\\script\\wood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FCF1000-37CE-3955-F63E-7EF5FFC271D6}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\wood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FCF1000-37CE-3955-F63E-7EF5FFC271D6}|Assembly-CSharp.csproj|D:\\project\\Sonduya\\Sonduya\\Assets\\Script\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FCF1000-37CE-3955-F63E-7EF5FFC271D6}|Assembly-CSharp.csproj|solutionrelative:Assets\\Script\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\Program\\Unity\\Repres\\Sonduya\\Sonduya\\Assets\\Script\\Move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Script\\Move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,26 +19,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Wood.cs",
-              "DocumentMoniker": "D:\\project\\Sonduya\\Sonduya\\Assets\\Script\\Wood.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Wood.cs",
-              "ToolTip": "D:\\project\\Sonduya\\Sonduya\\Assets\\Script\\Wood.cs",
-              "RelativeToolTip": "Assets\\Script\\Wood.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCYAAAAeAAAAAAAAAA==",
+              "Title": "Move.cs",
+              "DocumentMoniker": "G:\\Program\\Unity\\Repres\\Sonduya\\Sonduya\\Assets\\Script\\Move.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Move.cs",
+              "ToolTip": "G:\\Program\\Unity\\Repres\\Sonduya\\Sonduya\\Assets\\Script\\Move.cs",
+              "RelativeToolTip": "Assets\\Script\\Move.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T15:40:19.835Z",
+              "WhenOpened": "2024-10-10T15:33:34.443Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "fire.cs",
-              "DocumentMoniker": "D:\\project\\Sonduya\\Sonduya\\Assets\\Script\\fire.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\fire.cs",
-              "ToolTip": "D:\\project\\Sonduya\\Sonduya\\Assets\\Script\\fire.cs",
-              "RelativeToolTip": "Assets\\Script\\fire.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T15:40:19.302Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
