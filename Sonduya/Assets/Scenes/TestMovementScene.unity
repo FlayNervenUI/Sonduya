@@ -208,7 +208,7 @@ Transform:
   m_GameObject: {fileID: 231887574}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -0.08, y: -0.04, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 494003925}
   - component: {fileID: 494003924}
   - component: {fileID: 494003923}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Woods
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -381,7 +381,7 @@ Transform:
   m_GameObject: {fileID: 494003922}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.69, y: -0.4, z: 0}
+  m_LocalPosition: {x: 2.64, y: -0.72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -508,7 +508,7 @@ GameObject:
   - component: {fileID: 1197642601}
   - component: {fileID: 1197642604}
   - component: {fileID: 1197642603}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fire
   m_TagString: Fire
   m_Icon: {fileID: 0}
@@ -954,7 +954,7 @@ Transform:
   m_GameObject: {fileID: 1550728153}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.11, y: -0.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1108,7 +1108,7 @@ GameObject:
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &1654928507
 BoxCollider2D:
   m_ObjectHideFlags: 0
