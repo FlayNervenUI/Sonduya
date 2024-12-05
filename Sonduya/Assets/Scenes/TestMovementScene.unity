@@ -465,6 +465,11 @@ Transform:
   - {fileID: 1637005547}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &927642314 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1321597956291146447, guid: a383982b6df8e6f45a305b66418fbfa8, type: 3}
+  m_PrefabInstance: {fileID: 2583582827612054201}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1197642600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1075,7 +1080,7 @@ Rigidbody2D:
   m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 3
+  m_GravityScale: 10
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1179,6 +1184,22 @@ PrefabInstance:
     - target: {fileID: 1321597956291146447, guid: a383982b6df8e6f45a305b66418fbfa8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119839842750169357, guid: a383982b6df8e6f45a305b66418fbfa8, type: 3}
+      propertyPath: ropeLength
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119839842750169357, guid: a383982b6df8e6f45a305b66418fbfa8, type: 3}
+      propertyPath: followSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2119839842750169357, guid: a383982b6df8e6f45a305b66418fbfa8, type: 3}
+      propertyPath: playerPosition
+      value: 
+      objectReference: {fileID: 927642314}
+    - target: {fileID: 2119839842750169357, guid: a383982b6df8e6f45a305b66418fbfa8, type: 3}
+      propertyPath: maxPullDistance
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3313626809528797613, guid: a383982b6df8e6f45a305b66418fbfa8, type: 3}
       propertyPath: m_Name
