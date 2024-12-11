@@ -1080,7 +1080,7 @@ Rigidbody2D:
   m_Mass: 5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 10
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1187,11 +1187,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2119839842750169357, guid: a383982b6df8e6f45a305b66418fbfa8, type: 3}
       propertyPath: ropeLength
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2119839842750169357, guid: a383982b6df8e6f45a305b66418fbfa8, type: 3}
       propertyPath: followSpeed
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2119839842750169357, guid: a383982b6df8e6f45a305b66418fbfa8, type: 3}
       propertyPath: playerPosition
@@ -1199,11 +1199,15 @@ PrefabInstance:
       objectReference: {fileID: 927642314}
     - target: {fileID: 2119839842750169357, guid: a383982b6df8e6f45a305b66418fbfa8, type: 3}
       propertyPath: maxPullDistance
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3313626809528797613, guid: a383982b6df8e6f45a305b66418fbfa8, type: 3}
       propertyPath: m_Name
       value: PlayerTest
+      objectReference: {fileID: 0}
+    - target: {fileID: 6990723779039486175, guid: a383982b6df8e6f45a305b66418fbfa8, type: 3}
+      propertyPath: m_Mass
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
