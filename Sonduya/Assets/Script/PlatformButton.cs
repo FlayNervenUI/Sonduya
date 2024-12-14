@@ -16,7 +16,7 @@ public class PlatformButton : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == layerIndex)
+        if (collision.gameObject.layer == layerIndex) //collision.CompareTag("movableBox") Если будет надобность в том, какие объекты могут взаимодействовать с кнопками
         {
             if(ObjectToDisable != null)
             {
@@ -27,7 +27,7 @@ public class PlatformButton : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == layerIndex)
+        if (collision.gameObject.layer == layerIndex) //collision.CompareTag("movableBox") Если будет надобность в том, какие объекты могут взаимодействовать с кнопками
         {
             if (ObjectToDisable != null)
             {

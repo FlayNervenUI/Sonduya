@@ -6,7 +6,7 @@ public class HookOkayu : MonoBehaviour
     public Transform playerPosition;
     public Transform hookPoint;
     public float ropeLength = 5f;
-    public float maxPullDistance = 8f;
+    public float maxPullDistance = 5f;
     public float grabDistance = 2f;
     public float followSpeed = 10f;
     public KeyCode grabKey = KeyCode.E;
@@ -104,7 +104,7 @@ public class HookOkayu : MonoBehaviour
         Rigidbody2D grabbedRb = grabbedObject.GetComponent<Rigidbody2D>();
 
         // Проверка на превышение максимальной дистанции
-        if (distance > maxPullDistance)
+        if (distance >= maxPullDistance)
         {
             ReleaseObject();
             Debug.Log("Объект отцепился: превышено максимальное расстояние");
