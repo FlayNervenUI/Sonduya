@@ -4,17 +4,35 @@ using UnityEngine;
 
 public class PlatformButton : MonoBehaviour
 {
+    public GameObject ObjectToDisable;
+    
     private int layerIndex;
+
 
     // Start is called before the first frame update
     void Start()
     {
         layerIndex = LayerMask.NameToLayer("Objects");
     }
-
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if (collision.gameObject.layer == layerIndex)
+        {
+            if(ObjectToDisable != null)
+            {
+                ObjectToDisable.SetActive(false);
+            }
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == layerIndex)
+        {
+            if (ObjectToDisable != null)
+            {
+                ObjectToDisable.SetActive(true);
+            }
+        }
     }
 }
