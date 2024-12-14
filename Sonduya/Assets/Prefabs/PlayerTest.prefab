@@ -108,7 +108,7 @@ MonoBehaviour:
   ropeLength: 2
   maxPullDistance: 6
   grabDistance: 1.5
-  followSpeed: 15
+  followSpeed: 50
   grabKey: 101
   releaseKey: 114
 --- !u!114 &3877789771852315391
