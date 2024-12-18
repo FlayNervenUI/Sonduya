@@ -69,7 +69,6 @@ public class HookOkayu : MonoBehaviour
             direction = -hookPoint.right;
         }
 
-        // Выполняем Raycast
         RaycastHit2D hit = Physics2D.Raycast(hookPoint.position, direction, grabDistance);
         if (hit.collider != null && hit.collider.gameObject.layer == layerIndex)
         {
@@ -128,34 +127,3 @@ public class HookOkayu : MonoBehaviour
         
     }
 }
-
-// Это заставляло объект летать Если объект висит в воздухе, подтягиваем его вертикально, чтобы он не "зависал"
-//if (distance < ropeLength)
-//{
-//    Vector2 upwardPull = new Vector2(0, followSpeed);
-//    grabbedRb.AddForce(upwardPull, ForceMode2D.Force);
-//}
-
-//1
-/*void HandleRope()
-{
-    Vector2 hookPosition = playerPosition.position;
-
-    Vector2 directionToHook = (hookPosition - (Vector2)grabbedObject.transform.position).normalized;
-    float distance = Vector2.Distance(hookPosition, grabbedObject.transform.position);
-    if(distance > maxPullDistance)
-    {
-        ReleaseObject();
-    }
-    else if (distance > ropeLength)
-    {
-        Rigidbody2D grabbedRb = grabbedObject.GetComponent<Rigidbody2D>();
-
-        Vector2 targetPosition = hookPosition - directionToHook * ropeLength;
-        grabbedRb.velocity = (targetPosition - (Vector2)grabbedObject.transform.position) * followSpeed;
-    }
-    else if(distance > ropeLength * 2)
-    {
-        ReleaseObject();
-    }
-}*/
